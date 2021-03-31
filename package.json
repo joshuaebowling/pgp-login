@@ -1,15 +1,17 @@
 {
-  "name": "react-typescript",
+  "name": "react-pgp-login",
   "version": "1.0.0",
-  "description": "React and TypeScript example starter project",
+  "description": "a PoC of how using merely a public key can create a relatively secure login",
   "keywords": [
-    "typescript",
+    "pgp",
     "react",
-    "starter"
+    "login"
   ],
   "main": "src/index.tsx",
   "dependencies": {
+    "openpgp": "5.0.0-1",
     "react": "17.0.2",
+    "react-copy-to-clipboard": "5.0.3",
     "react-dom": "17.0.2",
     "react-scripts": "4.0.0"
   },
